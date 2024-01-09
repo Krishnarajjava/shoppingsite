@@ -1,28 +1,28 @@
 const foodItem= [
     {
     id: 1,
-    name: 'Ambur Biryani',
+    name: 'Chicken Popcorn',
     category : 'biryani',
     rating : 4.3,
-    price: 13,
+    price: 199.00,
     img: 'images/biryani/Ambur-Chicken-Biryani.jpg',
     quantity: 1
 },
 {
     id: 2,
-    name: 'Hyderabadi Biryani',
+    name: 'Crispy fried chicken',
     category : 'biryani',
     rating : 4.3,
-    price: 15,
+    price: 249.00,
     img: 'images/biryani/Chicken-Biryani-hyd.jpg',
     quantity: 1
 },
 {
     id: 3,
-    name: 'Egg Biryani',
+    name: 'Pan fried chicken',
     category : 'biryani',
     rating : 4.3,
-    price: 18,
+    price: 249.00,
     img: 'images/biryani/egg-biryani.jpeg',
     quantity: 1
 },
@@ -82,37 +82,37 @@ const foodItem= [
 },
 {
     id: 10,
-    name: 'Chicken Roast',
+    name: 'White chicken soup',
     category : 'chicken',
     rating : 4.3,
-    price: 11,
+    price: 199.00,
     img: 'images/chicken/Chicken_roast.jpg',
     quantity: 1
 },
 {
     id: 11,
-    name: 'Chicken Curry',
+    name: 'Flavourrd tomato soup',
     category : 'chicken',
     rating : 4.3,
-    price: 10,
+    price: 149.00,
     img: 'images/chicken/Chicken-Curry.jpg',
     quantity: 1
 },
 {
     id: 12,
-    name: 'Chicken Do Pyaza',
+    name: 'Veg clear soup',
     category : 'chicken',
     rating : 4.3,
-    price: 14,
+    price: 149.00,
     img: 'images/chicken/Chicken-do-Pyaza.jpg',
     quantity: 1
 },
 {
     id: 13,
-    name: 'Chicken Masala',
+    name: 'Cream of mushroom soup',
     category : 'chicken',
     rating : 4.3,
-    price: 12,
+    price: 149,
     img: 'images/chicken/Chicken-Masala.jpeg',
     quantity: 1
 },
@@ -136,49 +136,49 @@ const foodItem= [
 },
 {
     id: 16,
-    name: 'Matar Paneer',
+    name: 'Grilled prawn sesame salad',
     category : 'paneer',
     rating : 4.3,
-    price: 15,
+    price: 199,
     img: 'images/paneer/Matar-Paneer.jpg',
     quantity: 1
 
 },
 {
     id: 17,
-    name: 'Palak Paneer',
+    name: 'Fresh mung bean salad',
     category : 'paneer',
     rating : 4.3,
-    price: 10,
+    price: 149,
     img: 'images/paneer/palak-paneer.jpg',
     quantity: 1
 },
 {
     id: 18,
-    name: 'Paneer Butter Masala',
+    name: 'Green salad',
     category : 'paneer',
     rating : 4.3,
-    price: 15,
+    price: 99,
     img: 'images/paneer/paneer-butter-masala.jpg',
     quantity: 1
 
 },
 {
     id: 19,
-    name: 'Paneer Do Pyaza',
+    name: 'Sesame salad',
     category : 'paneer',
     rating : 4.3,
-    price: 12,
+    price: 149,
     img: 'images/paneer/Paneer-Do-Pyaza.jpg',
     quantity: 1
 
 },
 {
     id: 20,
-    name: 'Hyderabadi Paneer',
+    name: 'Fruit salad',
     category : 'paneer',
     rating : 4.3,
-    price: 8,
+    price: 149,
     img: 'images/paneer/Paneer-Hyderabadi.jpg',
     quantity: 1
 },
@@ -203,19 +203,19 @@ const foodItem= [
 },
 {
     id: 23,
-    name: 'Navratan Korma',
+    name: 'Chicken nuggets',
     category : 'vegetable',
     rating : 4.3,
-    price: 8,
+    price: 199,
     img: 'images/vegetable/navratan-korma_-vegetable.png',
     quantity: 1
 },
 {
     id: 24,
-    name: 'Veg Jalfrezi',
+    name: 'Cheese nuggets',
     category : 'vegetable',
     rating : 4.3,
-    price: 7,
+    price: 199,
     img: 'images/vegetable/VEG-JALFREZI.jpg',
     quantity: 1
 },
@@ -266,28 +266,28 @@ const foodItem= [
 },
 {
     id: 30,
-    name: 'Momos',
+    name: 'Chicken white penne pasta',
     category : 'chinese',
     rating : 4.3,
-    price: 8,
+    price: 349,
     img: 'images/chinese/cabbage-momos-.jpg',
     quantity: 1
 },
 {
     id: 31,
-    name: 'Chicken Manchurian',
+    name: 'Veg white penne pasta',
     category : 'chinese',
     rating : 4.3,
-    price: 7,
+    price: 299,
     img: 'images/chinese/ChickenManchurian.jpg',
     quantity: 1
 },
 {
     id: 32,
-    name: 'Chili Chicken',
+    name: 'Veg tomato penne pasta',
     category : 'chinese',
     rating : 4.3,
-    price: 5,
+    price: 299,
     img: 'images/chinese/Chili-Chicken.jpg',
     quantity: 1
 },

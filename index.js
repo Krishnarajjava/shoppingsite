@@ -422,9 +422,13 @@ function totalAmount(){
     document.getElementById('total-price').innerText= 'Total Price : $ ' + sum;
     document.getElementById('m-total-amount').innerText= 'Total Price : $ ' + sum;
 }
+// console.log(currPrice);
+
 
 document.getElementById('cart-plus').addEventListener('click',cartToggle);
 document.getElementById('m-cart-plus').addEventListener('click',cartToggle);
+
+console.log(cartData);
 
 var flag= false;
 function cartToggle(){
@@ -495,3 +499,33 @@ function addAddress(){
         alert("Address not added")
     }
 }
+
+function showCheckoutForm() {
+    document.getElementById('checkoutForm').style.display = 'block';
+    // Fetch and display cart product details here
+}
+
+function closeCheckoutForm() {
+    document.getElementById('checkoutForm').style.display = 'none';
+}
+
+function submitForm(event) {
+    // Handle form submission (e.g., send data to the server)
+    event.preventDefault();
+    closeCheckoutForm();
+    // Additional logic for submitting the form data
+}
+
+// let as=[];
+// foodItem.forEach(sample=>{
+//     as.push(sample.name);
+// });
+// // document.querySelector('.abc').innerHTML=as;
+
+// let m=[];
+
+// const the=document.getElementById('');
+// the.forEach(it=>{
+//     m.push(it.name);
+// })
+// document.getElementById('.product').innerText=m;

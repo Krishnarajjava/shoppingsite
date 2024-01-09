@@ -1,0 +1,165 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <style>
+        /* Add your styles for the form here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #checkoutForm {
+            display: none;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body> -->
+
+<!-- Your website content goes here -->
+
+<!-- <button onclick="showCheckoutForm()">Checkout</button> -->
+
+<!-- Checkout Form -->
+<!-- <div id="checkoutForm">
+    <h2>Checkout</h2>
+    <form onsubmit="submitForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea> -->
+
+        <!-- Display cart product details here -->
+
+        <!-- <button type="submit">Place Order</button>
+        <button type="button" onclick="closeCheckoutForm()">Close</button>
+    </form>
+</div>
+
+<script>
+    function showCheckoutForm() {
+        document.getElementById('checkoutForm').style.display = 'block'; -->
+        // Fetch and display cart product details here
+    <!-- } -->
+
+    <!-- function closeCheckoutForm() {
+        document.getElementById('checkoutForm').style.display = 'none';
+    }
+
+    function submitForm(event) {
+        // Handle form submission (e.g., send data to the server)
+        event.preventDefault();
+        closeCheckoutForm();
+        // Additional logic for submitting the form data
+    }
+</script>
+
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form Popup</title>
+    <style>
+        /* Add your styles for the form here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 400px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Your website content goes here -->
+
+<button onclick="showCheckoutPopup()">Checkout</button>
+
+<!-- Checkout Form Popup -->
+<div id="checkoutModal" class="modal">
+    <h2>Checkout</h2>
+    <form onsubmit="submitForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+
+        <!-- Display cart product details here -->
+
+        <button type="submit">Place Order</button>
+        <button type="button" onclick="closeCheckoutPopup()">Close</button>
+    </form>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<script>
+    function showCheckoutPopup() {
+        document.getElementById('checkoutModal').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
+        // Fetch and display cart product details here
+    }
+
+    function closeCheckoutPopup() {
+        document.getElementById('checkoutModal').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    }
+
+    function submitForm(event) {
+        // Handle form submission (e.g., send data to the server)
+        event.preventDefault();
+        closeCheckoutPopup();
+        // Additional logic for submitting the form data
+    }
+</script>
+
+</body>
+</html>
